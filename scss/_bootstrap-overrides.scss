@@ -1,0 +1,20 @@
+.btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($secondary, 10%) !important;
+    border-color: darken($secondary, 10%) !important;
+  }
+}
+
+.input {
+  font-weight: 300 !important;
+}
+
+body {
+  background-color: rgb(245, 245, 240);
+  background: url('../img/logo_medium_black.png') no-repeat center center fixed;
+  background-size: contain;
+}
