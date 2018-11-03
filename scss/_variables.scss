@@ -16,5 +16,6 @@ $black: #000 !default;
 
 $primary: rgb(42, 42, 42) !default;
 $secondary: rgb(245, 245, 240) !default;
+$highlight: darken($secondary, 20%);
 
 $social-margin: 4.5rem;

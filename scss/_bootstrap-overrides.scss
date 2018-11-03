@@ -4,8 +4,9 @@
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($secondary, 10%) !important;
-    border-color: darken($secondary, 10%) !important;
+    background-color: $highlight !important;
+    border-color: $highlight !important;
+    color: $primary !important;
   }
   color: $primary;
 }

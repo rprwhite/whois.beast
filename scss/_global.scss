@@ -6,6 +6,11 @@ html {
 
 a {
   color: $secondary;
+  &:active,
+  &:focus,
+  &:hover {
+    color: $highlight;
+  }
 }
 
 body {
